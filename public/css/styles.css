@@ -1,0 +1,123 @@
+@import url(_header.css);
+@import url(_footer.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.home-banner{
+    width: 100%;
+}
+
+.producto-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.product{
+    width: 200px;
+}
+
+.box-product{
+    margin: 10px;
+    border-top: 1px #ebebeb solid;
+    padding: 15px;
+    background-color: white;
+    position: relative;
+    box-shadow: 5px 5px 5px 1px rgba(0,0,0,0.3);
+}
+
+
+.titular {
+    margin: 20px;
+    font-size: 24px;
+}
+.precio{
+    font-size: 18px;
+    color: black;
+}
+
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 50px;
+    color: #39b54a;
+    }
+
+    main section article i:hover {
+        transform: rotate(270deg);
+    }
+
+    .reg-container, .login-container{
+        display: block;
+        margin: 50px;
+        list-style: none;
+        text-align: center;
+    }
+
+    .reg-input, .login-input{
+        margin: 20px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .reg-btns{
+        display: block;
+        margin: auto;
+        width: 100%;
+        text-align: center;
+        
+    }
+
+    .btn-send, .btn-del{
+        padding: 15px;
+        font-size: 20px;
+        border-radius: 10px;
+        margin: 40px;
+        border: none;
+        background-color: blue;
+        color: white;
+        transition: all 450ms;
+    }
+
+    .btn-send:hover{
+        background-color: #0022AA;
+    }
+
+    .btn-del{
+        background-color: white;
+        color: blue;
+    }
